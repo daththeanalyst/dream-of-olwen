@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Dream of Olwen | Bath Guildhall Market</title>
+  <meta name="description" content="Get in touch with Dream of Olwen. Questions about our textiles, wholesale enquiries, or just want to say hello.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html" class="nav__logo">Dream of <span>Olwen</span></a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="visit.html">Visit Us</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="about-split">
+        <div class="contact-form">
+          <h2 style="margin-bottom: 8px;">Send Us a Message</h2>
+          <p style="color: var(--text-light); margin-bottom: 24px;">Whether you have a question about our products, want to check stock, or have a wholesale enquiry — drop us a line.</p>
+          <form action="https://formspree.io/f/your-form-id" method="POST">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required placeholder="Jane Smith">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required placeholder="jane@example.com">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="general">General Enquiry</option>
+                <option value="product">Product Question</option>
+                <option value="wholesale">Wholesale Enquiry</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" required placeholder="Tell us how we can help..."></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+        <div>
+          <h2 style="margin-bottom: 24px;">Other Ways to Reach Us</h2>
+
+          <div class="visit-info">
+            <div class="visit-info__item">
+              <strong>Phone</strong>
+              <span><a href="tel:07789537646" style="color: var(--deep-red);">07789 537646</a></span>
+            </div>
+            <div class="visit-info__item">
+              <strong>In Person</strong>
+              <span>Unit 1-3, Guildhall Market, High Street, Bath BA2 4AW</span>
+            </div>
+            <div class="visit-info__item">
+              <strong>Hours</strong>
+              <span>Monday–Saturday, 9 AM – 5 PM</span>
+            </div>
+          </div>
+
+          <div style="margin-top: 40px; padding: 24px; background: var(--ivory); border-radius: 8px; border-left: 4px solid var(--gold);">
+            <h3 style="font-size: 1.1rem; margin-bottom: 8px;">Visiting Bath?</h3>
+            <p style="color: var(--text-light); font-size: 0.9rem; line-height: 1.7;">The best way to experience our textiles is in person. The colours, textures and quality really come alive when you can touch and feel them. Pop in any weekday — no appointment needed.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <p class="footer__brand">Dream of <span>Olwen</span></p>
+          <p class="footer__desc">Bringing the finest Indian textiles to Bath's historic Guildhall Market for over 20 years.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="visit.html">Visit Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>Unit 1-3, Guildhall Market</li>
+            <li>Bath BA2 4AW</li>
+            <li>Tel: 07789 537646</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        &copy; 2026 Dream of Olwen. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
