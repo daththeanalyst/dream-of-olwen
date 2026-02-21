@@ -144,11 +144,7 @@ img { max-width: 100%; height: auto; display: block; }
 .hero__pattern {
   position: absolute;
   inset: 0;
-  opacity: 0.08;
-  background-image:
-    radial-gradient(circle at 25% 25%, var(--gold) 1px, transparent 1px),
-    radial-gradient(circle at 75% 75%, var(--gold) 1px, transparent 1px);
-  background-size: 40px 40px;
+  background: rgba(75, 20, 30, 0.55);
   z-index: 1;
 }
 
