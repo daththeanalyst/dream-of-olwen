@@ -604,8 +604,6 @@ img { max-width: 100%; height: auto; display: block; }
   .footer__inner { grid-template-columns: 1fr; gap: 24px; }
 
   .products-grid { grid-template-columns: 1fr 1fr; }
-}
-
   .photo-grid { grid-template-columns: 1fr; }
 }
 
